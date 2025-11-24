@@ -1,3 +1,4 @@
+
 # Color Detection Application
 
 Aplikasi Streamlit untuk deteksi warna pada gambar dengan berbagai color space dan metode thresholding.
@@ -81,3 +82,8 @@ color_detection_app/
 - **Dynamic Threshold**: Gunakan untuk gambar dengan variasi pencahayaan, K Factor 1.0-2.0 biasanya optimal
 - **Distance Threshold**: Gunakan untuk deteksi warna spesifik, mulai dengan max distance 50-100
 
+
+cara menjalankan
+cd C:\Users\angga\color_detection_app
+pip install -r requirements.txt
+streamlit run app.py
